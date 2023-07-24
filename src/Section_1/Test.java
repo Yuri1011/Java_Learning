@@ -29,6 +29,8 @@ public class Test {
             builder.append(arrChars[i]);
         }
 
-        System.out.println("===>>>   " + builder);
+        String newStr = builder.toString();
+        System.out.println("===>>>   " + newStr);
+
     }
 }
