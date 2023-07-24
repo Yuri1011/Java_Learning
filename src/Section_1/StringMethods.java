@@ -22,5 +22,7 @@ public class StringMethods {
         System.out.println(Arrays.toString(str.split(",")));// make array from string by any symbol
 //        System.out.println(str.trim());
         System.out.println(str.strip());// remove gaps around string same as trim()
+
+
     }
 }
