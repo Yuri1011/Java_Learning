@@ -24,11 +24,14 @@ public class Test {
 //            }
 //        }
         StringBuilder builder = new StringBuilder();
-
-        for (int i = arrChars.length - 1; i >= 0; i--) {
-            builder.append(arrChars[i]);
+// first way
+//        for (int i = arrChars.length - 1; i >= 0; i--) {
+//            builder.append(arrChars[i]);
+//        }
+//second way
+        for (int i = str.length() - 1; i >= 0; i--) {
+            builder.append(str.charAt(i));
         }
-
         String newStr = builder.toString();
         System.out.println("===>>>   " + newStr);
 
